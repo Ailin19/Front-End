@@ -10,3 +10,88 @@ nav {
 .logo {
     width: 100px;
 }
+/*banner*/
+.banner {
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(war.jpg);
+    box-shadow: 20px 20px 7px;
+}
+.capa {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+.banner .info .container {
+    margin-top: 9rem;
+}
+.info {
+    z-index: 1;
+    width: 100%;
+}
+.info h1 {
+    color: #fff;
+    font-size: 68px;
+    margin-bottom: 20px;
+    text-shadow: 2px 1px 1px rgb(0, 0, 0);
+}
+.banner .info h1 span {
+    color: #870054;
+}
+.info h2 {
+    color: #fff;
+    font-size: 49px;
+    line-height: 1.7;
+    text-shadow: 2px 1px 1px rgb(0, 0, 0);
+}
+/*sobre mi*/
+.container {
+    margin-top: 6em;
+}
+.container .col-sm-4 {
+    padding: 25px;
+}
+.container .foto {
+    width: 100%;
+    box-shadow: 20px 20px 1px #870054;
+}
+.container .col-sm-8 {
+    padding: 25px;
+}
+.container .col-sm-8 h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #870054;
+    text-decoration-thickness: 3px;
+}
+.container .col-sm-8 h1 {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+.container .col-sm-8 h1 span {
+    color: #870054;
+}
+.container .col-sm-8 h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.container .col-sm-8 p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #313131;
+    margin-bottom: 12px;
+}
