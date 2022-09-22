@@ -95,3 +95,68 @@ nav {
     color: #313131;
     margin-bottom: 12px;
 }
+/*experiencia*/
+.experiencia-laboral {
+    background-color: #000000;
+    margin-top: 6em;
+    text-align: center;
+    padding: 90px 0;
+    box-shadow: 10px 20px 1px #870054;
+}
+.experiencia-laboral h3 {
+    color: #fff;
+    font-size: 27px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #870054;
+    text-decoration-thickness: 3px;
+}
+.experiencia-laboral h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px
+}
+.experiencia-laboral hr {
+    color: #fff;
+}
+/*educacion*/
+.educacion {
+    text-align: center;
+    padding: 90px 0;
+}
+.educacion h1 {
+    font-size: 27px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #870054;
+    text-decoration-thickness: 3px;
+}
+.educacion h2 {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.educacion h5 {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.educacion h4 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 10px;
+    letter-spacing: 1px
+}
+.educacion p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #313131;
+    margin-bottom: 12px;
+}
+
+
+
+.educacion .container.text-center .row {
+    margin: 30px 0;
+}
