@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav {
+    background: #000000;
+}
+.logo {
+    width: 100px;
+}
