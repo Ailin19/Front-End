@@ -154,9 +154,79 @@ nav {
     color: #313131;
     margin-bottom: 12px;
 }
-
-
-
 .educacion .container.text-center .row {
     margin: 30px 0;
+}
+/*habilidades*/
+.habilidades {
+    background: linear-gradient(#870054, rgba(33, 16, 16, 0.9));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 100px;
+    text-align: center;
+    color: #fff;
+}
+.habilidades h3 {
+    font-size: 27px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+    text-decoration-thickness: 3px;
+}
+.skills:not(:last-child) {
+    margin-bottom: 30px;
+}
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.menu {
+    position: relative;
+    border: 1px solid #868686;
+    border-radius: 20px;
+}
+.menu div {
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #868686;
+}
+/*animacion*/
+#html-menu {
+    animation: html-barra 2s forwards;
+}
+@keyframes html-barra {
+    100% {
+        width: 70%;
+    }
+}
+#css-menu {
+    animation: css-barra 2s forwards;
+}
+@keyframes css-barra {
+    100% {
+        width: 57%;
+    }
+}
+#js-menu {
+    animation: js-barra 2s forwards;
+}
+@keyframes js-barra {
+    100% {
+        width: 0%;
+    }
+}
+#bootstrap-menu {
+    animation: bootstrap-barra 2s forwards;
+}
+@keyframes bootstrap-barra {
+    100% {
+        width: 50%;
+    }
 }
