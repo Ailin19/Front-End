@@ -10,6 +10,13 @@ nav {
 .logo {
     width: 100px;
 }
+/*cerrar secion*/
+.dropdown-menu {
+    margin: 17px;
+    background: #262a34;
+    color: #fff;
+
+}
 /*login*/
 #ingresar {
     border: 1px solid #000000;
@@ -332,4 +339,22 @@ nav {
     background-color:  #870054;
     border: 1px solid #ffffff;
     color: #fff;
+}
+/*habilidad boton*/
+#habboton {
+    border: 1px solid #ffffff;
+}
+#habboton:hover {
+    background-color:  #868686;
+    border: 1px solid #ffffff;
+    color: #000000;
+}
+/*proyecto boton*/
+#proboton {
+    border: 1px solid #000000;
+}
+#proboton:hover {
+    background-color:  #870054;
+    color: #fff;
+    border: 1px solid #868686;
 }
