@@ -10,6 +10,12 @@ nav {
 .logo {
     width: 100px;
 }
+/*login*/
+#ingresar {
+    border: 1px solid #000000;
+    background-color: #870054;
+    color: #fff;
+}
 /*banner*/
 .banner {
     width: 100%;
@@ -31,7 +37,7 @@ nav {
     background: rgba(0, 0, 0, 0.4);
 }
 .banner .info .container {
-    margin-top: 9rem;
+    margin-top: 7rem;
 }
 .info {
     z-index: 1;
@@ -94,6 +100,16 @@ nav {
     line-height: 25px;
     color: #313131;
     margin-bottom: 12px;
+}
+.container .col-sm-8 a {
+    margin-top: 20px;
+    position: relative;
+    border: 1px solid #000000;
+}
+.container .col-sm-8 a:hover{
+    background-color:  #868686;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*experiencia*/
 .experiencia-laboral {
@@ -203,7 +219,7 @@ nav {
 }
 @keyframes html-barra {
     100% {
-        width: 70%;
+        width: 86%;
     }
 }
 #css-menu {
@@ -211,7 +227,7 @@ nav {
 }
 @keyframes css-barra {
     100% {
-        width: 57%;
+        width: 77%;
     }
 }
 #js-menu {
@@ -219,7 +235,7 @@ nav {
 }
 @keyframes js-barra {
     100% {
-        width: 0%;
+        width: 25%;
     }
 }
 #bootstrap-menu {
@@ -227,7 +243,7 @@ nav {
 }
 @keyframes bootstrap-barra {
     100% {
-        width: 50%;
+        width: 63%;
     }
 }
 /*proyectos*/
@@ -263,6 +279,57 @@ nav {
 /*footer*/
 .footer {
     background-color: #000000;
-    height: 100px;
+    height: 150px;
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+}
 
+/*dashboard*/
+#guardar {
+    margin-top: 10px;
+    
+    background-color: #870054;
+    color: #fff;
+    margin-bottom: 10px;
+}
+#button {
+    text-align: right;
+}
+/*banner boton*/
+#botonbanner {
+    position: relative;
+    border: 1px solid #ffffff;
+}
+#botonbanner:hover {
+    background-color:  #870054;
+    color: rgb(0, 0, 0);
+}
+/*perfil boton*/
+#perfilbuton {
+    margin-top: 20px;
+    position: relative;
+    border: 1px solid #000000;
+}
+#perfilbuton:hover {
+
+ background-color:  #870054;
+ color: #fff;
+ border: 1px solid #fffdfd;
+}
+/*experiencia boton*/
+#exboton {
+    border: 1px solid #ffffff;
+}
+#exboton:hover {
+    background-color:  #870054;
+}
+/*educacion boton*/
+#educacionboton {
+    border: 1px solid #000000;
+}
+#educacionboton:hover {
+    background-color:  #870054;
+    border: 1px solid #ffffff;
+    color: #fff;
 }
